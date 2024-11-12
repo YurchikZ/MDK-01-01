@@ -10,6 +10,7 @@ namespace ДЗ
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
