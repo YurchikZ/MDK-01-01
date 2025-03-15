@@ -1,4 +1,4 @@
-﻿namespace MyTreeView
+﻿namespace BindibgList
 {
     partial class Form1
     {

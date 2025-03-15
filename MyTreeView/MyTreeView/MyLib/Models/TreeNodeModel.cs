@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace MyLib.Models
 {
     public class TreeNodeModel
     {
-        public string Name { get; set; } //имя узла
-
-        public List<TreeNodeModel> Children { get; } // список дочерних узлов
+        public string Name { get; set; }
+        public List<TreeNodeModel> Children { get; }
 
         public TreeNodeModel(string name)
         {
@@ -22,7 +17,8 @@ namespace MyLib.Models
         {
             TreeNodeModel node = new TreeNodeModel(text);
             Children.Add(node);
-
             return node;
         }
+
+    }
 }
